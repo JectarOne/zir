@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/xqkgqqvvzf/simohe.com/ziryab/
+    - /bin/cp -R * $DEPLOYPATH
