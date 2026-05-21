@@ -86,8 +86,9 @@ em.gold{font-family:var(--serif);font-style:italic;color:var(--gold);font-weight
 
 /* Hero */
 .hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
-.hero__video{position:absolute;inset:0;z-index:0;overflow:hidden}
-.hero__video video,.hero__video img{width:100%;height:100%;object-fit:cover}
+.hero__video{position:absolute;inset:0;z-index:0;overflow:hidden;background:#06091a;display:flex;align-items:center;justify-content:center}
+.hero__video video{width:100%;height:100%;object-fit:contain;object-position:center}
+.hero__video img{width:100%;height:100%;object-fit:cover}
 .hero__video::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,9,26,.55) 0%,rgba(6,9,26,.5) 40%,rgba(6,9,26,.92) 100%)}
 .hero__ornament{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;pointer-events:none;background-image:radial-gradient(circle at 50% 100%,rgba(201,162,90,.18),transparent 60%)}
 .hero__inner{position:relative;z-index:2;padding:140px 32px 100px;max-width:1000px}
