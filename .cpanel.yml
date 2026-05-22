@@ -1,4 +1,10 @@
+---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/xqkgqqvvzf/simohe.com/ziryab/
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/xqkgqqvvzf/public_html/zir/
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp index-fr.html $DEPLOYPATH
+    - /bin/cp index-ar.html $DEPLOYPATH
